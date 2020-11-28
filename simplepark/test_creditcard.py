@@ -11,7 +11,7 @@ def test_credit_card_holder_name():
     for names in valid_name:
         assert creditNameCheck.verify_name_on_card(names) == True, "names contains first and last, and valid characters"
         
-def test_credit_card_holder_name_fails():
+def test_credit_card_holder_name_failed():
     firstName = "$illy"
     lastName = None
     
@@ -34,7 +34,7 @@ def test_credit_card_number():
     for number in valid_card_numbers:
         assert creditNumberCheck.verify_card_number(number) == True, "the number follows a correct format and has correct spacing"
         
-def test_credit_card_number_fails():
+def test_credit_card_number_failed():
     invalid_card_numbers = [
         "5191789ggh890",
         "411111",
@@ -59,7 +59,7 @@ def test_credit_card_expiry_date():
     for date in valid_dates:
         assert creditExpiryCheck.verify_card_expiry(date) == True, "the date has to be future and has format MM/YY"
         
-def test_credit_card_expiry_date_fails():
+def test_credit_card_expiry_date_failed():
     invalid_dates = [
         "200/Banana",
         "14,16",
@@ -83,7 +83,7 @@ def test_credit_card_ccv():
     for ccv in valid_ccv:
         assert creditCCVCheck.verify_ccv(ccv) == True, "the CCV follows correct format and is not missing"
 
-def test_credit_card_ccv_fails():
+def test_credit_card_ccv_failed():
     invalid_ccv = [
         "0000",
         "Banana",
