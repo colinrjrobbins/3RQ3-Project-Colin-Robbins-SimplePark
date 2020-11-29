@@ -1,5 +1,12 @@
 from simplepark.creditcard import CreditCards
-
+'''
+Requirement 3.1.1: Verify Credit Card
+Testing: To make sure that the name follows the correct format,
+         the card number follows correct formats for VISA, MasterCard,
+         American Express, and to make sure the expirary date and the
+         CCV number is all correctly formatted.
+'''
+#---------------------------------------------------------------------
 def test_credit_card_holder_name():
     firstName = "Billy"
     lastName = "Bob"
@@ -95,3 +102,4 @@ def test_credit_card_ccv_failed():
     creditCCVCheck = CreditCards()
     for ccv in invalid_ccv:
         assert creditCCVCheck.verify_ccv(ccv) == False, "the CCV does not follow correct format (###)"
+#---------------------------------------------------------------------

@@ -10,3 +10,6 @@ class Reservations():
     
     def verify_lot_id(self, lotID):
         return None
+    
+    def verify_reservation_cancellation(self, cancel):
+        return cancel
