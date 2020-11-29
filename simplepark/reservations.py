@@ -1,12 +1,12 @@
-class Reservation():
-    def verify_reserve_id(self):
+class Reservations():
+    def verify_reserve_id(self, reserveID):
         return None
   
-    def verify_date_reserved(self):
+    def verify_date_reserved(self, dateReserved):
         return None
     
-    def verify_time_allocated(self):
+    def verify_time_allocated(self, timeAllocated):
         return None
     
-    def verify_lot_id(self):
+    def verify_lot_id(self, lotID):
         return None
