@@ -1,3 +1,14 @@
+'''
+    File Name: test_creditcard.py
+    Project Name: SimplePark
+    Author: Colin Robbins
+    Student Number: 400353539
+    Date: 12/02/2020
+    Class: SFWRTECH 3RQ3
+    Professor: Sean Watson
+    Purpose: used to run tests on the creditcard.py class
+'''
+
 from simplepark.creditcard import CreditCards
 '''
 Requirement 3.1.1: Verify Credit Card

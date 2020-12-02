@@ -1,3 +1,14 @@
+'''
+    File Name: test_reservations.py
+    Project Name: SimplePark
+    Author: Colin Robbins
+    Student Number: 400353539
+    Date: 12/02/2020
+    Class: SFWRTECH 3RQ3
+    Professor: Sean Watson
+    Purpose: used to run tests on the reservations.py class
+'''
+
 from simplepark.reservations import Reservations
 
 '''

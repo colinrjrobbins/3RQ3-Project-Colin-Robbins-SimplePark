@@ -1,3 +1,14 @@
+'''
+    File Name: test_licenseplate.py
+    Project Name: SimplePark
+    Author: Colin Robbins
+    Student Number: 400353539
+    Date: 12/02/2020
+    Class: SFWRTECH 3RQ3
+    Professor: Sean Watson
+    Purpose: used to run tests on the licenseplate.py class
+'''
+
 from simplepark.licenseplate import LicensePlate
 
 '''
